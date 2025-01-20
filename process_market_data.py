@@ -158,13 +158,13 @@ def main():
 
 def clean_json_response(response_text: str) -> str:
     """Clean response text to get valid JSON"""
-    logging.debug(f"Original response: {repr(response_text)}")
+    # logging.debug(f"Original response: {repr(response_text)}")
     
     # Remove markdown code blocks if present
     if "```" in response_text:
         # Split and clean
         parts = response_text.split("```")
-        logging.debug(f"Split parts: {repr(parts)}")
+        # logging.debug(f"Split parts: {repr(parts)}")
         
         # Find the part that contains the JSON
         for part in parts:
@@ -175,7 +175,7 @@ def clean_json_response(response_text: str) -> str:
                     cleaned = cleaned[5:]  # Remove "json\n"
                 cleaned = cleaned.strip()
                 
-                logging.debug(f"Cleaned part: {repr(cleaned)}")
+                # logging.debug(f"Cleaned part: {repr(cleaned)}")
                 # Try to parse it to validate
                 try:
                     json.loads(cleaned)
@@ -193,6 +193,17 @@ def clean_json_response(response_text: str) -> str:
         logging.error("Could not find valid JSON in response")
         return response_text.strip()
 
+def clean_company_name(name: str) -> str:
+    """Remove parenthetical suffixes and clean company name"""
+    # Remove anything in parentheses at the end of the name
+    if '(' in name:
+        name = name.split('(')[0]
+    
+    # Clean up any trailing spaces, commas, etc
+    name = name.strip(' ,.;')
+    
+    return name
+
 def get_tickers_from_perplexity(companies: List[Dict]) -> List[Dict]:
     """
     Get ticker symbols for companies using Perplexity AI.
@@ -204,9 +215,21 @@ def get_tickers_from_perplexity(companies: List[Dict]) -> List[Dict]:
     
     client = OpenAI(api_key=api_key, base_url="https://api.perplexity.ai")
     
-    # Create the prompt with company names
-    company_list = "\n".join([f"- {company['name']} (Market Cap: {company['market_cap']})" 
-                             for company in companies])
+    # Clean company names and create the list
+    cleaned_companies = [
+        {
+            "name": clean_company_name(company['name']),
+            "original_name": company['name'],
+            "market_cap": company['market_cap']
+        }
+        for company in companies
+    ]
+    
+    # Create the prompt with cleaned names
+    company_list = "\n".join([
+        f"- {company['name']} (Market Cap: {company['market_cap']})" 
+        for company in cleaned_companies
+    ])
     
     messages = [
         {
@@ -240,22 +263,31 @@ def get_tickers_from_perplexity(companies: List[Dict]) -> List[Dict]:
             messages=messages,
         )
         
-        # Parse the response to get the list of ticker mappings
+        # Parse the response and map back to original names
         response_text = response.choices[0].message.content
-        logging.info("Got response from API, cleaning JSON...")
         json_str = clean_json_response(response_text)
         
         try:
-            logging.debug(f"Attempting to parse JSON: {repr(json_str)}")
             result = json.loads(json_str)
             if isinstance(result, list):
-                logging.info(f"Found {len(result)} ticker symbols from Perplexity")
+                # Map results back to original names
+                final_results = []
+                name_map = {clean_company_name(c['name']): c['original_name'] for c in cleaned_companies}
+                
                 for item in result:
+                    original_name = name_map.get(item['name'], item['name'])
+                    final_results.append({
+                        "name": original_name,
+                        "sym": item['sym'],
+                        "notes": item['notes']
+                    })
+                    
                     if item.get('notes'):
-                        logging.info(f"{item['name']} -> {item['sym']} ({item['notes']})")
+                        logging.info(f"{original_name} -> {item['sym']} ({item['notes']})")
                     else:
-                        logging.info(f"{item['name']} -> {item['sym']}")
-                return result
+                        logging.info(f"{original_name} -> {item['sym']}")
+                        
+                return final_results
             else:
                 logging.error(f"Unexpected response format: {result}")
                 return []
@@ -263,12 +295,10 @@ def get_tickers_from_perplexity(companies: List[Dict]) -> List[Dict]:
         except json.JSONDecodeError as e:
             logging.error(f"Failed to parse JSON response: {str(e)}")
             logging.error(f"Raw response: {repr(response_text)}")
-            logging.error(f"Cleaned response: {repr(json_str)}")
             return []
         
     except Exception as e:
         logging.error(f"Error getting tickers from Perplexity: {str(e)}")
-        logging.error(f"Response content: {response.choices[0].message.content if 'response' in locals() else 'No response'}")
         return []
 
 def process_unmapped_with_perplexity(batch_size: int = 20):

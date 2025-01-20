@@ -120,8 +120,16 @@ def count_unique_tickers() -> int:
             logging.error("No mapping file found")
             return 0
             
-        # Get all non-null ticker symbols
-        ticker_symbols = {sym for sym in ticker_data["mappings"].values() if sym is not None}
+        # Get all non-null ticker symbols, handling both old and new format
+        ticker_symbols = set()
+        for value in ticker_data["mappings"].values():
+            if isinstance(value, dict):
+                # New format with sym and notes
+                if value.get("sym") is not None:
+                    ticker_symbols.add(value["sym"])
+            elif value is not None:
+                # Old format with just ticker string
+                ticker_symbols.add(value)
         
         # Log results
         logging.info(f"Found {len(ticker_symbols)} unique ticker symbols in {latest_file}")
