@@ -1,0 +1,172 @@
+{
+  "name": "US Market Matrix",
+  "sectors": [
+    {
+      "name": "Healthcare",
+      "color": "#3498DB",
+      "subsectors": [
+        "Hospitals",
+        "Pharmaceuticals",
+        "Medical Devices"
+      ]
+    },
+    {
+      "name": "Technology",
+      "color": "#2ECC71",
+      "subsectors": [
+        "Software Development",
+        "IT Services",
+        "Hardware"
+      ]
+    },
+    {
+      "name": "Financial Services",
+      "color": "#F1C40F",
+      "subsectors": [
+        "Banking",
+        "Insurance",
+        "Investment Services"
+      ]
+    },
+    {
+      "name": "Retail Trade",
+      "color": "#E74C3C",
+      "subsectors": [
+        "E-commerce",
+        "Traditional Retail",
+        "Specialty Retail"
+      ]
+    },
+    {
+      "name": "Manufacturing",
+      "color": "#9B59B6",
+      "subsectors": [
+        "Automotive",
+        "Aerospace",
+        "Industrial Equipment"
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "color": "#27AE60",
+      "subsectors": [
+        "Commercial",
+        "Residential",
+        "Property Management"
+      ]
+    },
+    {
+      "name": "Energy",
+      "color": "#E67E22",
+      "subsectors": [
+        "Oil and Gas",
+        "Renewable Energy",
+        "Utilities"
+      ]
+    },
+    {
+      "name": "Construction",
+      "color": "#F39C12",
+      "subsectors": [
+        "Residential",
+        "Commercial",
+        "Infrastructure"
+      ]
+    },
+    {
+      "name": "Professional Services",
+      "color": "#3498DB",
+      "subsectors": [
+        "Consulting",
+        "Legal Services",
+        "Accounting"
+      ]
+    },
+    {
+      "name": "Education",
+      "color": "#16A085",
+      "subsectors": [
+        "Higher Education",
+        "K-12",
+        "Educational Technology"
+      ]
+    },
+    {
+      "name": "Entertainment",
+      "color": "#E74C3C",
+      "subsectors": [
+        "Film and Television",
+        "Gaming",
+        "Publishing"
+      ]
+    },
+    {
+      "name": "Agriculture",
+      "color": "#27AE60",
+      "subsectors": [
+        "Farming",
+        "Food Processing",
+        "Distribution"
+      ]
+    },
+    {
+      "name": "Transportation",
+      "color": "#D35400",
+      "subsectors": [
+        "Shipping",
+        "Airlines",
+        "Freight"
+      ]
+    },
+    {
+      "name": "Defense",
+      "color": "#C0392B",
+      "subsectors": [
+        "Military Equipment",
+        "Space Technology",
+        "Defense Contracting"
+      ]
+    },
+    {
+      "name": "Hospitality",
+      "color": "#3498DB",
+      "subsectors": [
+        "Hotels",
+        "Restaurants",
+        "Travel Services"
+      ]
+    },
+    {
+      "name": "Biotechnology",
+      "color": "#8E44AD",
+      "subsectors": [
+        "Research",
+        "Development",
+        "Clinical Testing"
+      ]
+    },
+    {
+      "name": "Telecommunications",
+      "color": "#E67E22",
+      "subsectors": [
+        "Wireless Services",
+        "Internet Providers",
+        "Network Infrastructure"
+      ]
+    },
+    {
+      "name": "Consumer Goods",
+      "color": "#F1C40F",
+      "subsectors": [
+        "Personal Care",
+        "Home Products",
+        "Apparel"
+      ]
+    }
+  ],
+  "metadata": {
+    "totalSectors": 18,
+    "totalSubsectors": 54,
+    "version": "1.0"
+  }
+} 

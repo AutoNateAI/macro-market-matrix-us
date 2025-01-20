@@ -1,0 +1,754 @@
+<mxfile host="65bd71144e">
+    <diagram id="macro-matrix" name="Macro Market Matrix">
+        <mxGraphModel dx="2800" dy="4179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2669" pageHeight="1927" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="central-hub" value="US Market Matrix" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#2C3E50;strokeColor=#1B2736;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="5850" y="-930" width="140" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="healthcare" value="Healthcare" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#2980B9;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="1980" y="260" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="technology" value="Technology" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2ECC71;strokeColor=#27AE60;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="9520" y="260" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="financial" value="Financial Services" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F1C40F;strokeColor=#F39C12;fontColor=#2C3E50" parent="1" vertex="1">
+                    <mxGeometry x="2380" y="260" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="retail" value="Retail Trade" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E74C3C;strokeColor=#C0392B;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="2840" y="260" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="manufacturing" value="Manufacturing" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9B59B6;strokeColor=#8E44AD;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="3270" y="260" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="realestate" value="Real Estate" style="ellipse;whiteSpace=wrap;html=1;fillColor=#27AE60;strokeColor=#219A52;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="3710" y="260" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="energy" value="Energy" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E67E22;strokeColor=#D35400;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="4160" y="260" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="construction" value="Construction" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F39C12;strokeColor=#E67E22;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="4590" y="260" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="professional" value="Professional Services" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#2980B9;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="5000" y="260" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="education" value="Education" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A085;strokeColor=#138D75;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="5450" y="260" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="entertainment" value="Entertainment" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E74C3C;strokeColor=#C0392B;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="5950" y="260" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="agriculture" value="Agriculture" style="ellipse;whiteSpace=wrap;html=1;fillColor=#27AE60;strokeColor=#219A52;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="6360" y="260" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="transportation" value="Transportation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D35400;strokeColor=#A04000;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="8640" y="260" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="defense" value="Defense" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C0392B;strokeColor=#922B21;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="8180" y="260" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="hospitality" value="Hospitality" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#2980B9;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="7710" y="260" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="biotech" value="Biotechnology" style="ellipse;whiteSpace=wrap;html=1;fillColor=#8E44AD;strokeColor=#6C3483;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="7290" y="260" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="telecom" value="Telecommunications" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E67E22;strokeColor=#D35400;fontColor=#FFFFFF" parent="1" vertex="1">
+                    <mxGeometry x="6840" y="260" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="consumer" value="Consumer Goods" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F1C40F;strokeColor=#F39C12;fontColor=#2C3E50" parent="1" vertex="1">
+                    <mxGeometry x="9070" y="260" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="note" value="Each industry node will connect to its top 3 sub-sectors&#10;Total: 54 sub-sector nodes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2C3E50" parent="1" vertex="1">
+                    <mxGeometry x="1920" y="1590" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="healthcare-1" value="Hospitals" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#2980B9;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="1860" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="healthcare-2" value="Pharmaceuticals" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#2980B9;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="1990" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="healthcare-3" value="Medical Devices" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#2980B9;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="2120" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="healthcare-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="healthcare" target="healthcare-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2003.3333333333335" y="352"/>
+                            <mxPoint x="1910" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="healthcare-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="healthcare" target="healthcare-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2040" y="354"/>
+                            <mxPoint x="2040" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="healthcare-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="healthcare" target="healthcare-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2076.6666666666665" y="352"/>
+                            <mxPoint x="2170" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="tech-1" value="Software Development" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2ECC71;strokeColor=#27AE60;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="9390" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tech-2" value="IT Services" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2ECC71;strokeColor=#27AE60;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="9540" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tech-3" value="Hardware" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2ECC71;strokeColor=#27AE60;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="9670" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tech-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="technology" target="tech-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="9546.666666666668" y="352"/>
+                            <mxPoint x="9450" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="tech-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="technology" target="tech-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="9590" y="354"/>
+                            <mxPoint x="9590" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="tech-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="technology" target="tech-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="9633.333333333332" y="352"/>
+                            <mxPoint x="9720" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fin-1" value="Banking" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F1C40F;strokeColor=#F39C12;fontColor=#2C3E50;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="2280" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="fin-2" value="Insurance" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F1C40F;strokeColor=#F39C12;fontColor=#2C3E50;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="2410" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="fin-3" value="Investment Services" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F1C40F;strokeColor=#F39C12;fontColor=#2C3E50;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="2540" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="fin-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="financial" target="fin-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2410" y="352"/>
+                            <mxPoint x="2330" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fin-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="financial" target="fin-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2460" y="354"/>
+                            <mxPoint x="2460" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fin-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="financial" target="fin-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2510" y="352"/>
+                            <mxPoint x="2600" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-healthcare" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="healthcare">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-tech" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="technology">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-financial" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="financial">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-retail" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="retail">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-manufacturing" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="manufacturing">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-realestate" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="realestate">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-energy" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="energy">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-construction" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="construction">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-professional" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="professional">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-education" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="education">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-entertainment" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="entertainment">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-agriculture" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="agriculture">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-transportation" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="transportation">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-defense" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="defense">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-hospitality" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="hospitality">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-biotech" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="biotech">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-telecom" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="telecom">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hub-consumer" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="central-hub" target="consumer">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="retail-1" value="E-commerce" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E74C3C;strokeColor=#C0392B;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="2720" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="retail-2" value="Traditional Retail" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E74C3C;strokeColor=#C0392B;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="2850" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="retail-3" value="Specialty Retail" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E74C3C;strokeColor=#C0392B;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="3000" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="retail-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="retail" target="retail-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2866.6666666666665" y="352"/>
+                            <mxPoint x="2770" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="retail-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="retail" target="retail-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2910" y="354"/>
+                            <mxPoint x="2910" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="retail-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="retail" target="retail-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2953.333333333333" y="352"/>
+                            <mxPoint x="3050" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mfg-1" value="Automotive" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9B59B6;strokeColor=#8E44AD;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="3160" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="mfg-2" value="Aerospace" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9B59B6;strokeColor=#8E44AD;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="3290" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="mfg-3" value="Industrial Equipment" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9B59B6;strokeColor=#8E44AD;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="3420" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="mfg-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="manufacturing" target="mfg-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="3296.666666666667" y="352"/>
+                            <mxPoint x="3210" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mfg-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="manufacturing" target="mfg-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="3340" y="354"/>
+                            <mxPoint x="3340" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mfg-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="manufacturing" target="mfg-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="3383.333333333333" y="352"/>
+                            <mxPoint x="3480" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="re-1" value="Commercial" style="ellipse;whiteSpace=wrap;html=1;fillColor=#27AE60;strokeColor=#219A52;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="3600" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="re-2" value="Residential" style="ellipse;whiteSpace=wrap;html=1;fillColor=#27AE60;strokeColor=#219A52;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="3730" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="re-3" value="Property Management" style="ellipse;whiteSpace=wrap;html=1;fillColor=#27AE60;strokeColor=#219A52;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="3860" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="re-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="realestate" target="re-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="3736.666666666667" y="352"/>
+                            <mxPoint x="3650" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="re-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="realestate" target="re-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="3780" y="354"/>
+                            <mxPoint x="3780" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="re-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="realestate" target="re-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="3823.333333333333" y="352"/>
+                            <mxPoint x="3920" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="energy-1" value="Oil and Gas" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E67E22;strokeColor=#D35400;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="4040" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="energy-2" value="Renewable Energy" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E67E22;strokeColor=#D35400;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="4170" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="energy-3" value="Utilities" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E67E22;strokeColor=#D35400;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="4320" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="energy-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="energy" target="energy-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="4186.666666666666" y="352"/>
+                            <mxPoint x="4090" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="energy-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="energy" target="energy-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="4230" y="354"/>
+                            <mxPoint x="4230" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="energy-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="energy" target="energy-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="4273.333333333334" y="352"/>
+                            <mxPoint x="4370" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="const-1" value="Residential" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F39C12;strokeColor=#E67E22;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="4480" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="const-2" value="Commercial" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F39C12;strokeColor=#E67E22;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="4610" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="const-3" value="Infrastructure" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F39C12;strokeColor=#E67E22;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="4740" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="const-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="construction" target="const-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="4616.666666666666" y="352"/>
+                            <mxPoint x="4530" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="const-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="construction" target="const-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="4660" y="354"/>
+                            <mxPoint x="4660" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="const-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="construction" target="const-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="4703.333333333334" y="352"/>
+                            <mxPoint x="4790" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="prof-1" value="Consulting" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#2980B9;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="4900" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="prof-2" value="Legal Services" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#2980B9;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="5030" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="prof-3" value="Accounting" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#2980B9;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="5160" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="prof-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="professional" target="prof-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="5030" y="352"/>
+                            <mxPoint x="4950" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="prof-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="professional" target="prof-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="5080" y="354"/>
+                            <mxPoint x="5080" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="prof-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="professional" target="prof-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="5130" y="352"/>
+                            <mxPoint x="5210" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edu-1" value="Higher Education" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A085;strokeColor=#138D75;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="5320" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="edu-2" value="K-12" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A085;strokeColor=#138D75;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="5470" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="edu-3" value="Educational Technology" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A085;strokeColor=#138D75;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="5600" y="440" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="edu-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="education" target="edu-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="5476.666666666666" y="352"/>
+                            <mxPoint x="5380" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edu-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="education" target="edu-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="5520" y="354"/>
+                            <mxPoint x="5520" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edu-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="education" target="edu-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="5563.333333333334" y="352"/>
+                            <mxPoint x="5670" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ent-1" value="Film and Television" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E74C3C;strokeColor=#C0392B;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="5800" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ent-2" value="Gaming" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E74C3C;strokeColor=#C0392B;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="5950" y="420" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ent-3" value="Publishing" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E74C3C;strokeColor=#C0392B;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="6080" y="420" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ent-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="entertainment" target="ent-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="5970" y="332"/>
+                            <mxPoint x="5860" y="408"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ent-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="entertainment" target="ent-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="6000" y="334"/>
+                            <mxPoint x="6000" y="408"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ent-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="entertainment" target="ent-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="6030" y="332"/>
+                            <mxPoint x="6130" y="408"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="agr-1" value="Farming" style="ellipse;whiteSpace=wrap;html=1;fillColor=#27AE60;strokeColor=#219A52;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="6240" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="agr-2" value="Food Processing" style="ellipse;whiteSpace=wrap;html=1;fillColor=#27AE60;strokeColor=#219A52;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="6370" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="agr-3" value="Distribution" style="ellipse;whiteSpace=wrap;html=1;fillColor=#27AE60;strokeColor=#219A52;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="6520" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="agr-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="agriculture" target="agr-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="6386.666666666667" y="352"/>
+                            <mxPoint x="6290" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="agr-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="agriculture" target="agr-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="6430" y="354"/>
+                            <mxPoint x="6430" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="agr-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="agriculture" target="agr-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="6473.333333333333" y="352"/>
+                            <mxPoint x="6570" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="telecom-1" value="Wireless Services" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E67E22;strokeColor=#D35400;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="6680" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="telecom-2" value="Internet Providers" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E67E22;strokeColor=#D35400;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="6830" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="telecom-3" value="Network Infrastructure" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E67E22;strokeColor=#D35400;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="6980" y="420" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="biotech-1" value="Research" style="ellipse;whiteSpace=wrap;html=1;fillColor=#8E44AD;strokeColor=#6C3483;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="7180" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="biotech-2" value="Development" style="ellipse;whiteSpace=wrap;html=1;fillColor=#8E44AD;strokeColor=#6C3483;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="7310" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="biotech-3" value="Clinical Testing" style="ellipse;whiteSpace=wrap;html=1;fillColor=#8E44AD;strokeColor=#6C3483;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="7440" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hosp-1" value="Hotels" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#2980B9;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="7600" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hosp-2" value="Restaurants" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#2980B9;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="7730" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hosp-3" value="Travel Services" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=#2980B9;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="7860" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="def-1" value="Military Equipment" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C0392B;strokeColor=#922B21;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="8040" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="def-2" value="Space Technology" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C0392B;strokeColor=#922B21;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="8190" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="def-3" value="Defense Contracting" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C0392B;strokeColor=#922B21;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="8340" y="440" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="trans-1" value="Shipping" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D35400;strokeColor=#A04000;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="8530" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="trans-2" value="Airlines" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D35400;strokeColor=#A04000;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="8660" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="trans-3" value="Freight" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D35400;strokeColor=#A04000;fontColor=#FFFFFF;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="8790" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cons-1" value="Personal Care" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F1C40F;strokeColor=#F39C12;fontColor=#2C3E50;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="8950" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cons-2" value="Home Products" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F1C40F;strokeColor=#F39C12;fontColor=#2C3E50;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="9080" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cons-3" value="Apparel" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F1C40F;strokeColor=#F39C12;fontColor=#2C3E50;opacity=50" vertex="1" parent="1">
+                    <mxGeometry x="9230" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="telecom-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="telecom" target="telecom-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="6857" y="332"/>
+                            <mxPoint x="6740" y="408"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="telecom-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="telecom" target="telecom-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="6890" y="334"/>
+                            <mxPoint x="6890" y="408"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="telecom-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="telecom" target="telecom-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="6923" y="332"/>
+                            <mxPoint x="7050" y="408"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="biotech-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="biotech" target="biotech-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="7316.666666666667" y="352"/>
+                            <mxPoint x="7230" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="biotech-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="biotech" target="biotech-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="7360" y="354"/>
+                            <mxPoint x="7360" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="biotech-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="biotech" target="biotech-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="7403.333333333333" y="352"/>
+                            <mxPoint x="7490" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hosp-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="hospitality" target="hosp-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="7736.666666666668" y="352"/>
+                            <mxPoint x="7650" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hosp-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="hospitality" target="hosp-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="7780" y="354"/>
+                            <mxPoint x="7780" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hosp-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="hospitality" target="hosp-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="7823.333333333332" y="352"/>
+                            <mxPoint x="7920" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="def-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="defense" target="def-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="8206.666666666668" y="352"/>
+                            <mxPoint x="8100" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="def-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="defense" target="def-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="8250" y="354"/>
+                            <mxPoint x="8250" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="def-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="defense" target="def-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="8293.333333333332" y="352"/>
+                            <mxPoint x="8405" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="trans-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="transportation" target="trans-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="8666.666666666668" y="352"/>
+                            <mxPoint x="8580" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="trans-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="transportation" target="trans-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="8710" y="354"/>
+                            <mxPoint x="8710" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="trans-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="transportation" target="trans-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="8753.333333333332" y="352"/>
+                            <mxPoint x="8840" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="cons-conn-1" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="consumer" target="cons-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="9096.666666666668" y="352"/>
+                            <mxPoint x="9000" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="cons-conn-2" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="consumer" target="cons-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="9140" y="354"/>
+                            <mxPoint x="9140" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="cons-conn-3" style="endArrow=none;html=1;rounded=0;opacity=50;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="consumer" target="cons-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="9183.333333333332" y="352"/>
+                            <mxPoint x="9280" y="428"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,2332 @@
+{
+  "name": "US Market Matrix",
+  "sectors": [
+    {
+      "name": "Healthcare",
+      "color": "#3498DB",
+      "subsectors": [
+        {
+          "name": "Hospitals",
+          "companies": [
+            {
+              "name": "HCA Healthcare",
+              "market_cap": "75B"
+            },
+            {
+              "name": "Universal Health Services, Inc.",
+              "market_cap": "12B"
+            },
+            {
+              "name": "Tenet Healthcare Corporation",
+              "market_cap": "7B"
+            },
+            {
+              "name": "Community Health Systems, Inc.",
+              "market_cap": "1B"
+            },
+            {
+              "name": "LifePoint Health, Inc.",
+              "market_cap": "0.8B"
+            },
+            {
+              "name": "Select Medical Holdings Corp",
+              "market_cap": "4B"
+            },
+            {
+              "name": "Acadia Healthcare",
+              "market_cap": "7B"
+            },
+            {
+              "name": "Encompass Health Corporation",
+              "market_cap": "7B"
+            },
+            {
+              "name": "Ramsay Health Care Limited",
+              "market_cap": "7B"
+            }
+          ]
+        },
+        {
+          "name": "Pharmaceuticals",
+          "companies": [
+            {
+              "name": "Johnson & Johnson",
+              "market_cap": "420B"
+            },
+            {
+              "name": "Roche Holding AG",
+              "market_cap": "280B"
+            },
+            {
+              "name": "Pfizer Inc.",
+              "market_cap": "215B"
+            },
+            {
+              "name": "Novartis AG",
+              "market_cap": "205B"
+            },
+            {
+              "name": "Eli Lilly and Company",
+              "market_cap": "245B"
+            },
+            {
+              "name": "Merck & Co., Inc.",
+              "market_cap": "215B"
+            },
+            {
+              "name": "Sanofi S.A.",
+              "market_cap": "130B"
+            },
+            {
+              "name": "AstraZeneca plc",
+              "market_cap": "200B"
+            },
+            {
+              "name": "AbbVie Inc.",
+              "market_cap": "190B"
+            }
+          ]
+        },
+        {
+          "name": "Medical Devices",
+          "companies": [
+            {
+              "name": "Thermo Fisher Scientific",
+              "market_cap": "222B"
+            },
+            {
+              "name": "Abbott Laboratories",
+              "market_cap": "195B"
+            },
+            {
+              "name": "Medtronic Plc",
+              "market_cap": "147B"
+            },
+            {
+              "name": "Danaher Corporation",
+              "market_cap": "136B"
+            },
+            {
+              "name": "Stryker Corporation",
+              "market_cap": "108B"
+            },
+            {
+              "name": "Boston Scientific",
+              "market_cap": "87B"
+            },
+            {
+              "name": "Becton Dickinson",
+              "market_cap": "81B"
+            },
+            {
+              "name": "Intuitive Surgical",
+              "market_cap": "73B"
+            },
+            {
+              "name": "Zimmer Biomet",
+              "market_cap": "33B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technology",
+      "color": "#2ECC71",
+      "subsectors": [
+        {
+          "name": "Software Development",
+          "companies": [
+            {
+              "name": "Microsoft Corporation",
+              "market_cap": "2.5T"
+            },
+            {
+              "name": "Alphabet Inc.",
+              "market_cap": "1.7T"
+            },
+            {
+              "name": "Meta Platforms, Inc.",
+              "market_cap": "850B"
+            },
+            {
+              "name": "SAP SE",
+              "market_cap": "175B"
+            },
+            {
+              "name": "Salesforce, Inc.",
+              "market_cap": "200B"
+            },
+            {
+              "name": "Adobe Inc.",
+              "market_cap": "210B"
+            },
+            {
+              "name": "ServiceNow, Inc.",
+              "market_cap": "100B"
+            },
+            {
+              "name": "Intuit Inc.",
+              "market_cap": "140B"
+            },
+            {
+              "name": "Workday, Inc.",
+              "market_cap": "70B"
+            }
+          ]
+        },
+        {
+          "name": "IT Services",
+          "companies": [
+            {
+              "name": "Accenture",
+              "market_cap": "220B"
+            },
+            {
+              "name": "Tata Consultancy Services",
+              "market_cap": "170B"
+            },
+            {
+              "name": "Infosys",
+              "market_cap": "70B"
+            },
+            {
+              "name": "Cognizant Technology Solutions",
+              "market_cap": "47B"
+            },
+            {
+              "name": "HCL Technologies",
+              "market_cap": "42B"
+            },
+            {
+              "name": "Wipro",
+              "market_cap": "38B"
+            },
+            {
+              "name": "Capgemini",
+              "market_cap": "36B"
+            },
+            {
+              "name": "DXC Technology",
+              "market_cap": "8B"
+            },
+            {
+              "name": "Tech Mahindra",
+              "market_cap": "13B"
+            }
+          ]
+        },
+        {
+          "name": "Hardware",
+          "companies": [
+            {
+              "name": "Apple Inc.",
+              "market_cap": "2.8T"
+            },
+            {
+              "name": "Samsung Electronics",
+              "market_cap": "500B"
+            },
+            {
+              "name": "Foxconn",
+              "market_cap": "212B"
+            },
+            {
+              "name": "Sony Corporation",
+              "market_cap": "130B"
+            },
+            {
+              "name": "Dell Technologies",
+              "market_cap": "92B"
+            },
+            {
+              "name": "HP Inc.",
+              "market_cap": "67B"
+            },
+            {
+              "name": "Lenovo Group Limited",
+              "market_cap": "55B"
+            },
+            {
+              "name": "Xiaomi Corporation",
+              "market_cap": "50B"
+            },
+            {
+              "name": "ASUSTeK Computer Inc.",
+              "market_cap": "39B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Financial Services",
+      "color": "#F1C40F",
+      "subsectors": [
+        {
+          "name": "Banking",
+          "companies": [
+            {
+              "name": "JPMorgan Chase",
+              "market_cap": "467B"
+            },
+            {
+              "name": "Bank of America",
+              "market_cap": "242B"
+            },
+            {
+              "name": "Wells Fargo",
+              "market_cap": "178B"
+            },
+            {
+              "name": "Citigroup",
+              "market_cap": "144B"
+            },
+            {
+              "name": "Royal Bank of Canada",
+              "market_cap": "140B"
+            },
+            {
+              "name": "Morgan Stanley",
+              "market_cap": "132B"
+            },
+            {
+              "name": "HSBC Holdings",
+              "market_cap": "118B"
+            },
+            {
+              "name": "Goldman Sachs",
+              "market_cap": "115B"
+            },
+            {
+              "name": "Toronto-Dominion Bank",
+              "market_cap": "106B"
+            }
+          ]
+        },
+        {
+          "name": "Insurance",
+          "companies": [
+            {
+              "name": "Berkshire Hathaway Inc.",
+              "market_cap": "782B"
+            },
+            {
+              "name": "Ping An Insurance",
+              "market_cap": "162B"
+            },
+            {
+              "name": "Allianz SE",
+              "market_cap": "115B"
+            },
+            {
+              "name": "AXA SA",
+              "market_cap": "84B"
+            },
+            {
+              "name": "China Life Insurance",
+              "market_cap": "77B"
+            },
+            {
+              "name": "MetLife, Inc.",
+              "market_cap": "62B"
+            },
+            {
+              "name": "Zurich Insurance Group",
+              "market_cap": "59B"
+            },
+            {
+              "name": "AIA Group Limited",
+              "market_cap": "54B"
+            },
+            {
+              "name": "Chubb Limited",
+              "market_cap": "52B"
+            }
+          ]
+        },
+        {
+          "name": "Investment Services",
+          "companies": [
+            {
+              "name": "The Vanguard Group",
+              "market_cap": "N/A"
+            },
+            {
+              "name": "BlackRock, Inc.",
+              "market_cap": "103B"
+            },
+            {
+              "name": "Charles Schwab Corporation",
+              "market_cap": "112B"
+            },
+            {
+              "name": "Fidelity Investments",
+              "market_cap": "N/A"
+            },
+            {
+              "name": "State Street Corporation",
+              "market_cap": "25B"
+            },
+            {
+              "name": "T. Rowe Price Group, Inc.",
+              "market_cap": "30B"
+            },
+            {
+              "name": "Goldman Sachs Group, Inc.",
+              "market_cap": "116B"
+            },
+            {
+              "name": "Morgan Stanley",
+              "market_cap": "155B"
+            },
+            {
+              "name": "JPMorgan Chase & Co. (Asset & Wealth Management)",
+              "market_cap": "N/A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Retail Trade",
+      "color": "#E74C3C",
+      "subsectors": [
+        {
+          "name": "E-commerce",
+          "companies": [
+            {
+              "name": "Amazon",
+              "market_cap": "1.4T"
+            },
+            {
+              "name": "Alibaba Group Holding Limited",
+              "market_cap": "200B"
+            },
+            {
+              "name": "JD.com, Inc.",
+              "market_cap": "160B"
+            },
+            {
+              "name": "Pinduoduo Inc.",
+              "market_cap": "130B"
+            },
+            {
+              "name": "Sea Limited",
+              "market_cap": "90B"
+            },
+            {
+              "name": "eBay Inc.",
+              "market_cap": "40B"
+            },
+            {
+              "name": "MercadoLibre, Inc.",
+              "market_cap": "65B"
+            },
+            {
+              "name": "Shopify Inc.",
+              "market_cap": "80B"
+            },
+            {
+              "name": "Rakuten, Inc.",
+              "market_cap": "14B"
+            }
+          ]
+        },
+        {
+          "name": "Traditional Retail",
+          "companies": [
+            {
+              "name": "Walmart Inc.",
+              "market_cap": "420B"
+            },
+            {
+              "name": "Costco Wholesale Corporation",
+              "market_cap": "235B"
+            },
+            {
+              "name": "The Home Depot, Inc.",
+              "market_cap": "320B"
+            },
+            {
+              "name": "The Kroger Co.",
+              "market_cap": "32B"
+            },
+            {
+              "name": "Target Corporation",
+              "market_cap": "65B"
+            },
+            {
+              "name": "CVS Health Corporation",
+              "market_cap": "95B"
+            },
+            {
+              "name": "Walgreens Boots Alliance, Inc.",
+              "market_cap": "27B"
+            },
+            {
+              "name": "Lowe's Companies, Inc.",
+              "market_cap": "135B"
+            },
+            {
+              "name": "Dollar General Corporation",
+              "market_cap": "40B"
+            }
+          ]
+        },
+        {
+          "name": "Specialty Retail",
+          "companies": [
+            {
+              "name": "The Home Depot, Inc.",
+              "market_cap": "327B"
+            },
+            {
+              "name": "Lowe's Companies, Inc.",
+              "market_cap": "130B"
+            },
+            {
+              "name": "TJX Companies, Inc.",
+              "market_cap": "102B"
+            },
+            {
+              "name": "Costco Wholesale Corporation",
+              "market_cap": "260B"
+            },
+            {
+              "name": "Target Corporation",
+              "market_cap": "104B"
+            },
+            {
+              "name": "O'Reilly Automotive, Inc.",
+              "market_cap": "55B"
+            },
+            {
+              "name": "Ross Stores, Inc.",
+              "market_cap": "45B"
+            },
+            {
+              "name": "AutoZone, Inc.",
+              "market_cap": "45B"
+            },
+            {
+              "name": "Tractor Supply Company",
+              "market_cap": "24B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manufacturing",
+      "color": "#9B59B6",
+      "subsectors": [
+        {
+          "name": "Automotive",
+          "companies": [
+            {
+              "name": "Toyota Motor Corporation",
+              "market_cap": "227B"
+            },
+            {
+              "name": "Tesla Inc.",
+              "market_cap": "860B"
+            },
+            {
+              "name": "Volkswagen AG",
+              "market_cap": "110B"
+            },
+            {
+              "name": "BYD Company Ltd.",
+              "market_cap": "100B"
+            },
+            {
+              "name": "Mercedes-Benz Group AG",
+              "market_cap": "86B"
+            },
+            {
+              "name": "Ford Motor Company",
+              "market_cap": "55B"
+            },
+            {
+              "name": "General Motors Company",
+              "market_cap": "54B"
+            },
+            {
+              "name": "Stellantis N.V.",
+              "market_cap": "51B"
+            },
+            {
+              "name": "Honda Motor Co., Ltd.",
+              "market_cap": "49B"
+            }
+          ]
+        },
+        {
+          "name": "Aerospace",
+          "companies": [
+            {
+              "name": "Boeing",
+              "market_cap": "124B"
+            },
+            {
+              "name": "Airbus",
+              "market_cap": "105B"
+            },
+            {
+              "name": "Lockheed Martin",
+              "market_cap": "110B"
+            },
+            {
+              "name": "Northrop Grumman",
+              "market_cap": "81B"
+            },
+            {
+              "name": "Raytheon Technologies",
+              "market_cap": "143B"
+            },
+            {
+              "name": "General Dynamics",
+              "market_cap": "68B"
+            },
+            {
+              "name": "Safran",
+              "market_cap": "74B"
+            },
+            {
+              "name": "Leonardo",
+              "market_cap": "6B"
+            },
+            {
+              "name": "Textron",
+              "market_cap": "17B"
+            }
+          ]
+        },
+        {
+          "name": "Industrial Equipment",
+          "companies": [
+            {
+              "name": "Honeywell International Inc.",
+              "market_cap": "125B"
+            },
+            {
+              "name": "Caterpillar Inc.",
+              "market_cap": "115B"
+            },
+            {
+              "name": "Illinois Tool Works Inc.",
+              "market_cap": "70B"
+            },
+            {
+              "name": "Emerson Electric Co.",
+              "market_cap": "70B"
+            },
+            {
+              "name": "3M Company",
+              "market_cap": "60B"
+            },
+            {
+              "name": "Parker-Hannifin Corporation",
+              "market_cap": "48B"
+            },
+            {
+              "name": "Stanley Black & Decker, Inc.",
+              "market_cap": "32B"
+            },
+            {
+              "name": "Fortive Corporation",
+              "market_cap": "30B"
+            },
+            {
+              "name": "Trane Technologies plc",
+              "market_cap": "29B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "color": "#27AE60",
+      "subsectors": [
+        {
+          "name": "Commercial",
+          "companies": [
+            {
+              "name": "Prologis, Inc.",
+              "market_cap": "106B"
+            },
+            {
+              "name": "American Tower Corporation",
+              "market_cap": "99B"
+            },
+            {
+              "name": "Crown Castle Inc.",
+              "market_cap": "61B"
+            },
+            {
+              "name": "Simon Property Group, Inc.",
+              "market_cap": "53B"
+            },
+            {
+              "name": "Equinix, Inc.",
+              "market_cap": "47B"
+            },
+            {
+              "name": "Public Storage",
+              "market_cap": "46B"
+            },
+            {
+              "name": "Realty Income Corporation",
+              "market_cap": "43B"
+            },
+            {
+              "name": "Welltower Inc.",
+              "market_cap": "42B"
+            },
+            {
+              "name": "Digital Realty Trust, Inc.",
+              "market_cap": "40B"
+            }
+          ]
+        },
+        {
+          "name": "Residential",
+          "companies": [
+            {
+              "name": "American Tower",
+              "market_cap": "87.9B"
+            },
+            {
+              "name": "Crown Castle",
+              "market_cap": "75.8B"
+            },
+            {
+              "name": "Equinix",
+              "market_cap": "73.2B"
+            },
+            {
+              "name": "Prologis",
+              "market_cap": "69.1B"
+            },
+            {
+              "name": "Public Storage",
+              "market_cap": "54.6B"
+            },
+            {
+              "name": "Digital Realty Trust",
+              "market_cap": "43.5B"
+            },
+            {
+              "name": "Simon Property Group",
+              "market_cap": "39.2B"
+            },
+            {
+              "name": "Realty Income",
+              "market_cap": "38.7B"
+            },
+            {
+              "name": "AvalonBay Communities",
+              "market_cap": "30.8B"
+            }
+          ]
+        },
+        {
+          "name": "Property Management",
+          "companies": [
+            {
+              "name": "Brookfield Asset Management Inc.",
+              "market_cap": "81.0B"
+            },
+            {
+              "name": "CBRE Group, Inc.",
+              "market_cap": "30.0B"
+            },
+            {
+              "name": "Jones Lang LaSalle Incorporated",
+              "market_cap": "9.0B"
+            },
+            {
+              "name": "Weyerhaeuser Company",
+              "market_cap": "24.0B"
+            },
+            {
+              "name": "RealPage, Inc. (Property Management Software)",
+              "market_cap": "10.2B"
+            },
+            {
+              "name": "AvalonBay Communities, Inc.",
+              "market_cap": "28.0B"
+            },
+            {
+              "name": "Equity Residential",
+              "market_cap": "28.5B"
+            },
+            {
+              "name": "Prologis, Inc.",
+              "market_cap": "114.5B"
+            },
+            {
+              "name": "Alexandria Real Estate Equities, Inc.",
+              "market_cap": "15.0B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Energy",
+      "color": "#E67E22",
+      "subsectors": [
+        {
+          "name": "Oil and Gas",
+          "companies": [
+            {
+              "name": "Saudi Aramco",
+              "market_cap": "2.0T"
+            },
+            {
+              "name": "ExxonMobil",
+              "market_cap": "450B"
+            },
+            {
+              "name": "Shell plc",
+              "market_cap": "220B"
+            },
+            {
+              "name": "Chevron Corporation",
+              "market_cap": "210B"
+            },
+            {
+              "name": "TotalEnergies SE",
+              "market_cap": "160B"
+            },
+            {
+              "name": "BP plc",
+              "market_cap": "110B"
+            },
+            {
+              "name": "PetroChina Company Limited",
+              "market_cap": "100B"
+            },
+            {
+              "name": "Rosneft Oil Company",
+              "market_cap": "90B"
+            },
+            {
+              "name": "ConocoPhillips",
+              "market_cap": "85B"
+            }
+          ]
+        },
+        {
+          "name": "Renewable Energy",
+          "companies": [
+            {
+              "name": "NextEra Energy, Inc.",
+              "market_cap": "152B"
+            },
+            {
+              "name": "Iberdrola, S.A.",
+              "market_cap": "88B"
+            },
+            {
+              "name": "Enel S.p.A.",
+              "market_cap": "74B"
+            },
+            {
+              "name": "Vestas Wind Systems A/S",
+              "market_cap": "67B"
+            },
+            {
+              "name": "Orsted A/S",
+              "market_cap": "60B"
+            },
+            {
+              "name": "Siemens Gamesa Renewable Energy, S.A.",
+              "market_cap": "35B"
+            },
+            {
+              "name": "EDF Renewables",
+              "market_cap": "30B"
+            },
+            {
+              "name": "Xinyi Solar Holdings Limited",
+              "market_cap": "25B"
+            },
+            {
+              "name": "First Solar, Inc.",
+              "market_cap": "22B"
+            }
+          ]
+        },
+        {
+          "name": "Utilities",
+          "companies": [
+            {
+              "name": "NextEra Energy",
+              "market_cap": "167B"
+            },
+            {
+              "name": "Enel S.p.A.",
+              "market_cap": "106B"
+            },
+            {
+              "name": "National Grid plc",
+              "market_cap": "75B"
+            },
+            {
+              "name": "Duke Energy",
+              "market_cap": "74B"
+            },
+            {
+              "name": "Southern Company",
+              "market_cap": "68B"
+            },
+            {
+              "name": "Iberdrola, S.A.",
+              "market_cap": "65B"
+            },
+            {
+              "name": "Dominion Energy",
+              "market_cap": "58B"
+            },
+            {
+              "name": "Exelon Corporation",
+              "market_cap": "49B"
+            },
+            {
+              "name": "Public Service Enterprise Group",
+              "market_cap": "42B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Construction",
+      "color": "#F39C12",
+      "subsectors": [
+        {
+          "name": "Residential",
+          "companies": [
+            {
+              "name": "Lennar Corporation",
+              "market_cap": "33B"
+            },
+            {
+              "name": "D.R. Horton, Inc.",
+              "market_cap": "31B"
+            },
+            {
+              "name": "PulteGroup, Inc.",
+              "market_cap": "15B"
+            },
+            {
+              "name": "NVR, Inc.",
+              "market_cap": "18B"
+            },
+            {
+              "name": "Toll Brothers, Inc.",
+              "market_cap": "9B"
+            },
+            {
+              "name": "Taylor Morrison Home Corporation",
+              "market_cap": "5B"
+            },
+            {
+              "name": "Meritage Homes Corporation",
+              "market_cap": "6B"
+            },
+            {
+              "name": "KB Home",
+              "market_cap": "4B"
+            },
+            {
+              "name": "The New Home Company",
+              "market_cap": "3B"
+            }
+          ]
+        },
+        {
+          "name": "Commercial",
+          "companies": [
+            {
+              "name": "Caterpillar Inc.",
+              "market_cap": "140B"
+            },
+            {
+              "name": "Vinci SA",
+              "market_cap": "80B"
+            },
+            {
+              "name": "Bouygues SA",
+              "market_cap": "50B"
+            },
+            {
+              "name": "Skanska AB",
+              "market_cap": "35B"
+            },
+            {
+              "name": "ACS, Actividades de Construcci\u00f3n y Servicios, S.A.",
+              "market_cap": "30B"
+            },
+            {
+              "name": "Aurecon Group",
+              "market_cap": "25B"
+            },
+            {
+              "name": "Hochtief AG",
+              "market_cap": "20B"
+            },
+            {
+              "name": "Fluor Corporation",
+              "market_cap": "10B"
+            },
+            {
+              "name": "Jacobs Engineering Group Inc.",
+              "market_cap": "8B"
+            }
+          ]
+        },
+        {
+          "name": "Infrastructure",
+          "companies": [
+            {
+              "name": "VINCI SA",
+              "market_cap": "87B"
+            },
+            {
+              "name": "China Communications Construction Company Limited",
+              "market_cap": "50B"
+            },
+            {
+              "name": "China Railway Group Limited",
+              "market_cap": "45B"
+            },
+            {
+              "name": "Fluor Corporation",
+              "market_cap": "33B"
+            },
+            {
+              "name": "Skanska AB",
+              "market_cap": "31B"
+            },
+            {
+              "name": "Jacobs Engineering Group",
+              "market_cap": "25B"
+            },
+            {
+              "name": "Ferrovial S.A.",
+              "market_cap": "24B"
+            },
+            {
+              "name": "Hochtief Aktiengesellschaft",
+              "market_cap": "20B"
+            },
+            {
+              "name": "SNC-Lavalin Group Inc.",
+              "market_cap": "18B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Professional Services",
+      "color": "#3498DB",
+      "subsectors": [
+        {
+          "name": "Consulting",
+          "companies": [
+            {
+              "name": "Accenture plc",
+              "market_cap": "206B"
+            },
+            {
+              "name": "Capgemini SE",
+              "market_cap": "38B"
+            },
+            {
+              "name": "Cognizant Technology Solutions",
+              "market_cap": "32B"
+            },
+            {
+              "name": "Tata Consultancy Services Limited",
+              "market_cap": "170B"
+            },
+            {
+              "name": "Infosys Limited",
+              "market_cap": "89B"
+            },
+            {
+              "name": "Wipro Limited",
+              "market_cap": "44B"
+            },
+            {
+              "name": "DXC Technology",
+              "market_cap": "6B"
+            },
+            {
+              "name": "Deloitte Consulting LLP",
+              "market_cap": "N/A"
+            },
+            {
+              "name": "Booz Allen Hamilton Holding Corporation",
+              "market_cap": "14B"
+            }
+          ]
+        },
+        {
+          "name": "Legal Services",
+          "companies": [
+            {
+              "name": "DLA Piper",
+              "market_cap": "2.1B"
+            },
+            {
+              "name": "Baker McKenzie",
+              "market_cap": "1.8B"
+            },
+            {
+              "name": "Clifford Chance",
+              "market_cap": "1.5B"
+            },
+            {
+              "name": "Skadden, Arps, Slate, Meagher & Flom",
+              "market_cap": "1.4B"
+            },
+            {
+              "name": "Kirkland & Ellis",
+              "market_cap": "1.2B"
+            },
+            {
+              "name": "Latham & Watkins",
+              "market_cap": "1.1B"
+            },
+            {
+              "name": "Allen & Overy",
+              "market_cap": "900M"
+            },
+            {
+              "name": "Dentons",
+              "market_cap": "850M"
+            },
+            {
+              "name": "CMS Legal Services",
+              "market_cap": "750M"
+            }
+          ]
+        },
+        {
+          "name": "Accounting",
+          "companies": [
+            {
+              "name": "Deloitte Touche Tohmatsu Limited",
+              "market_cap": "Not publicly traded"
+            },
+            {
+              "name": "PricewaterhouseCoopers (PwC)",
+              "market_cap": "Not publicly traded"
+            },
+            {
+              "name": "Ernst & Young (EY)",
+              "market_cap": "Not publicly traded"
+            },
+            {
+              "name": "KPMG",
+              "market_cap": "Not publicly traded"
+            },
+            {
+              "name": "Accenture",
+              "market_cap": "200B"
+            },
+            {
+              "name": "H&R Block",
+              "market_cap": "5B"
+            },
+            {
+              "name": "ADP (Automatic Data Processing)",
+              "market_cap": "100B"
+            },
+            {
+              "name": "Paychex",
+              "market_cap": "40B"
+            },
+            {
+              "name": "Broadridge Financial Solutions",
+              "market_cap": "20B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "color": "#16A085",
+      "subsectors": [
+        {
+          "name": "Higher Education",
+          "companies": [
+            {
+              "name": "Chegg",
+              "market_cap": "2.3B"
+            },
+            {
+              "name": "2U, Inc.",
+              "market_cap": "0.7B"
+            },
+            {
+              "name": "Grand Canyon Education",
+              "market_cap": "2.3B"
+            },
+            {
+              "name": "Stride, Inc.",
+              "market_cap": "1.7B"
+            },
+            {
+              "name": "American Public Education",
+              "market_cap": "0.3B"
+            },
+            {
+              "name": "Adtalem Global Education",
+              "market_cap": "1.4B"
+            },
+            {
+              "name": "Zovio Inc",
+              "market_cap": "0.04B"
+            },
+            {
+              "name": "Perdoceo Education Corporation",
+              "market_cap": "0.9B"
+            },
+            {
+              "name": "Strategic Education, Inc.",
+              "market_cap": "2.5B"
+            }
+          ]
+        },
+        {
+          "name": "K-12",
+          "companies": [
+            {
+              "name": "Chegg Inc.",
+              "market_cap": "1.12B"
+            },
+            {
+              "name": "Stride, Inc.",
+              "market_cap": "1.05B"
+            },
+            {
+              "name": "Pearson plc",
+              "market_cap": "8.5B"
+            },
+            {
+              "name": "New Oriental Education & Technology Group Inc.",
+              "market_cap": "6.7B"
+            },
+            {
+              "name": "TAL Education Group",
+              "market_cap": "4.5B"
+            },
+            {
+              "name": "Hailiang Education Group Inc.",
+              "market_cap": "1.5B"
+            },
+            {
+              "name": "GSX Techedu Inc.",
+              "market_cap": "2.8B"
+            },
+            {
+              "name": "Bright Scholar Education Holdings Limited",
+              "market_cap": "200M"
+            },
+            {
+              "name": "Gaotu Techedu Inc.",
+              "market_cap": "3.0B"
+            }
+          ]
+        },
+        {
+          "name": "Educational Technology",
+          "companies": [
+            {
+              "name": "BYJU'S",
+              "market_cap": "22B"
+            },
+            {
+              "name": "Zoom Video Communications",
+              "market_cap": "20B"
+            },
+            {
+              "name": "Chegg, Inc.",
+              "market_cap": "4.5B"
+            },
+            {
+              "name": "Coursera, Inc.",
+              "market_cap": "2.2B"
+            },
+            {
+              "name": "2U, Inc.",
+              "market_cap": "1.7B"
+            },
+            {
+              "name": "Stride, Inc.",
+              "market_cap": "1.6B"
+            },
+            {
+              "name": "Duolingo, Inc.",
+              "market_cap": "1.5B"
+            },
+            {
+              "name": "Pearson PLC",
+              "market_cap": "1.4B"
+            },
+            {
+              "name": "Blackboard, Inc. (part of Anthology)",
+              "market_cap": "1.2B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Entertainment",
+      "color": "#E74C3C",
+      "subsectors": [
+        {
+          "name": "Film and Television",
+          "companies": [
+            {
+              "name": "The Walt Disney Company",
+              "market_cap": "145B"
+            },
+            {
+              "name": "Netflix, Inc.",
+              "market_cap": "195B"
+            },
+            {
+              "name": "Comcast Corporation",
+              "market_cap": "180B"
+            },
+            {
+              "name": "Warner Bros. Discovery, Inc.",
+              "market_cap": "35B"
+            },
+            {
+              "name": "Fox Corporation",
+              "market_cap": "20B"
+            },
+            {
+              "name": "Sony Group Corporation",
+              "market_cap": "140B"
+            },
+            {
+              "name": "ViacomCBS (Paramount Global)",
+              "market_cap": "35B"
+            },
+            {
+              "name": "Lions Gate Entertainment Corp.",
+              "market_cap": "4B"
+            },
+            {
+              "name": "AMC Networks Inc.",
+              "market_cap": "3B"
+            }
+          ]
+        },
+        {
+          "name": "Gaming",
+          "companies": [
+            {
+              "name": "Tencent Holdings",
+              "market_cap": "629B"
+            },
+            {
+              "name": "Sony Group Corporation",
+              "market_cap": "132B"
+            },
+            {
+              "name": "Nintendo Co., Ltd.",
+              "market_cap": "73B"
+            },
+            {
+              "name": "Activision Blizzard, Inc.",
+              "market_cap": "62B"
+            },
+            {
+              "name": "Electronic Arts",
+              "market_cap": "39B"
+            },
+            {
+              "name": "Roblox Corporation",
+              "market_cap": "24B"
+            },
+            {
+              "name": "Take-Two Interactive Software, Inc.",
+              "market_cap": "22B"
+            },
+            {
+              "name": "NetEase, Inc.",
+              "market_cap": "20B"
+            },
+            {
+              "name": "Ubisoft Entertainment SA",
+              "market_cap": "5B"
+            }
+          ]
+        },
+        {
+          "name": "Publishing",
+          "companies": [
+            {
+              "name": "Activision Blizzard",
+              "market_cap": "61.92B"
+            },
+            {
+              "name": "Electronic Arts",
+              "market_cap": "38.94B"
+            },
+            {
+              "name": "Take-Two Interactive Software",
+              "market_cap": "25.64B"
+            },
+            {
+              "name": "Ubisoft Entertainment",
+              "market_cap": "8.1B"
+            },
+            {
+              "name": "Bandai Namco Holdings",
+              "market_cap": "15.23B"
+            },
+            {
+              "name": "Square Enix Holdings",
+              "market_cap": "7.95B"
+            },
+            {
+              "name": "Nexon Co.",
+              "market_cap": "19.88B"
+            },
+            {
+              "name": "SEGA Sammy Holdings",
+              "market_cap": "5.67B"
+            },
+            {
+              "name": "CD Projekt",
+              "market_cap": "5.17B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Agriculture",
+      "color": "#27AE60",
+      "subsectors": [
+        {
+          "name": "Farming",
+          "companies": [
+            {
+              "name": "Bayer AG",
+              "market_cap": "53B"
+            },
+            {
+              "name": "Nutrien Ltd.",
+              "market_cap": "48B"
+            },
+            {
+              "name": "Corteva, Inc.",
+              "market_cap": "42B"
+            },
+            {
+              "name": "Yara International ASA",
+              "market_cap": "27B"
+            },
+            {
+              "name": "Deere & Company (Agricultural Segment)",
+              "market_cap": "110B"
+            },
+            {
+              "name": "KWS SAAT SE & Co. KGaA",
+              "market_cap": "2.7B"
+            },
+            {
+              "name": "Mosaic Company",
+              "market_cap": "21B"
+            },
+            {
+              "name": "Kubota Corporation (Agricultural Machinery)",
+              "market_cap": "20B"
+            },
+            {
+              "name": "ICL Group Ltd.",
+              "market_cap": "14B"
+            }
+          ]
+        },
+        {
+          "name": "Food Processing",
+          "companies": [
+            {
+              "name": "Nestl\u00e9 S.A.",
+              "market_cap": "374B"
+            },
+            {
+              "name": "PepsiCo, Inc.",
+              "market_cap": "265B"
+            },
+            {
+              "name": "The Coca-Cola Company",
+              "market_cap": "260B"
+            },
+            {
+              "name": "Mondelez International, Inc.",
+              "market_cap": "98B"
+            },
+            {
+              "name": "Tyson Foods, Inc.",
+              "market_cap": "45B"
+            },
+            {
+              "name": "General Mills, Inc.",
+              "market_cap": "43B"
+            },
+            {
+              "name": "Unilever PLC",
+              "market_cap": "140B"
+            },
+            {
+              "name": "Kraft Heinz Company",
+              "market_cap": "44B"
+            },
+            {
+              "name": "Conagra Brands, Inc.",
+              "market_cap": "20B"
+            }
+          ]
+        },
+        {
+          "name": "Distribution",
+          "companies": [
+            {
+              "name": "Nutrien Ltd.",
+              "market_cap": "50B"
+            },
+            {
+              "name": "AGCO Corporation",
+              "market_cap": "11B"
+            },
+            {
+              "name": "Archer Daniels Midland Company",
+              "market_cap": "49B"
+            },
+            {
+              "name": "Bunge Limited",
+              "market_cap": "15B"
+            },
+            {
+              "name": "Olam International",
+              "market_cap": "11B"
+            },
+            {
+              "name": "Wilmar International",
+              "market_cap": "24B"
+            },
+            {
+              "name": "Corteva, Inc.",
+              "market_cap": "41B"
+            },
+            {
+              "name": "Deere & Company",
+              "market_cap": "120B"
+            },
+            {
+              "name": "Kubota Corporation",
+              "market_cap": "26B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transportation",
+      "color": "#D35400",
+      "subsectors": [
+        {
+          "name": "Shipping",
+          "companies": [
+            {
+              "name": "AP Moller-Maersk",
+              "market_cap": "64.2B"
+            },
+            {
+              "name": "Mediterranean Shipping Company (MSC)",
+              "market_cap": "43.5B"
+            },
+            {
+              "name": "CMA CGM Group",
+              "market_cap": "38.7B"
+            },
+            {
+              "name": "COSCO Shipping Holdings",
+              "market_cap": "36.1B"
+            },
+            {
+              "name": "Evergreen Marine Corporation",
+              "market_cap": "25.8B"
+            },
+            {
+              "name": "Yang Ming Marine Transport Corporation",
+              "market_cap": "23.4B"
+            },
+            {
+              "name": "Hapag-Lloyd",
+              "market_cap": "20.7B"
+            },
+            {
+              "name": "ONE (Ocean Network Express)",
+              "market_cap": "16.9B"
+            },
+            {
+              "name": "Zim Integrated Shipping Services",
+              "market_cap": "15.2B"
+            }
+          ]
+        },
+        {
+          "name": "Airlines",
+          "companies": [
+            {
+              "name": "Delta Air Lines",
+              "market_cap": "25B"
+            },
+            {
+              "name": "Southwest Airlines",
+              "market_cap": "22B"
+            },
+            {
+              "name": "United Airlines Holdings",
+              "market_cap": "20B"
+            },
+            {
+              "name": "American Airlines Group",
+              "market_cap": "15B"
+            },
+            {
+              "name": "Ryanair Holdings",
+              "market_cap": "14B"
+            },
+            {
+              "name": "Deutsche Lufthansa AG",
+              "market_cap": "12B"
+            },
+            {
+              "name": "International Consolidated Airlines Group",
+              "market_cap": "11B"
+            },
+            {
+              "name": "Air China Limited",
+              "market_cap": "10B"
+            },
+            {
+              "name": "Qantas Airways Limited",
+              "market_cap": "9B"
+            }
+          ]
+        },
+        {
+          "name": "Freight",
+          "companies": [
+            {
+              "name": "United Parcel Service, Inc. (UPS)",
+              "market_cap": "140B"
+            },
+            {
+              "name": "FedEx Corporation (FDX)",
+              "market_cap": "80B"
+            },
+            {
+              "name": "Union Pacific Corporation (UNP)",
+              "market_cap": "116B"
+            },
+            {
+              "name": "CSX Corporation (CSX)",
+              "market_cap": "72B"
+            },
+            {
+              "name": "Norfolk Southern Corporation (NSC)",
+              "market_cap": "56B"
+            },
+            {
+              "name": "Canadian National Railway Company (CNI)",
+              "market_cap": "81B"
+            },
+            {
+              "name": "Canadian Pacific Kansas City Limited (CP)",
+              "market_cap": "63B"
+            },
+            {
+              "name": "Knight-Swift Transportation Holdings Inc. (KNX)",
+              "market_cap": "9B"
+            },
+            {
+              "name": "Old Dominion Freight Line, Inc. (ODFL)",
+              "market_cap": "40B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Defense",
+      "color": "#C0392B",
+      "subsectors": [
+        {
+          "name": "Military Equipment",
+          "companies": [
+            {
+              "name": "Lockheed Martin",
+              "market_cap": "91B"
+            },
+            {
+              "name": "Northrop Grumman",
+              "market_cap": "63B"
+            },
+            {
+              "name": "Raytheon Technologies",
+              "market_cap": "147B"
+            },
+            {
+              "name": "General Dynamics",
+              "market_cap": "63B"
+            },
+            {
+              "name": "BAE Systems",
+              "market_cap": "32B"
+            },
+            {
+              "name": "Thales Group",
+              "market_cap": "25B"
+            },
+            {
+              "name": "Leonardo S.p.A.",
+              "market_cap": "10B"
+            },
+            {
+              "name": "SAIC",
+              "market_cap": "7B"
+            },
+            {
+              "name": "Huntington Ingalls Industries",
+              "market_cap": "8B"
+            }
+          ]
+        },
+        {
+          "name": "Space Technology",
+          "companies": [
+            {
+              "name": "Lockheed Martin",
+              "market_cap": "120B"
+            },
+            {
+              "name": "Northrop Grumman",
+              "market_cap": "80B"
+            },
+            {
+              "name": "Raytheon Technologies",
+              "market_cap": "130B"
+            },
+            {
+              "name": "General Dynamics",
+              "market_cap": "65B"
+            },
+            {
+              "name": "BAE Systems",
+              "market_cap": "50B"
+            },
+            {
+              "name": "SpaceX",
+              "market_cap": "137B"
+            },
+            {
+              "name": "Maxar Technologies",
+              "market_cap": "4B"
+            },
+            {
+              "name": "Aerojet Rocketdyne Holdings",
+              "market_cap": "4.4B"
+            },
+            {
+              "name": "L3Harris Technologies",
+              "market_cap": "45B"
+            }
+          ]
+        },
+        {
+          "name": "Defense Contracting",
+          "companies": [
+            {
+              "name": "Lockheed Martin Corporation",
+              "market_cap": "100B"
+            },
+            {
+              "name": "Northrop Grumman Corporation",
+              "market_cap": "70B"
+            },
+            {
+              "name": "Raytheon Technologies Corporation",
+              "market_cap": "140B"
+            },
+            {
+              "name": "General Dynamics Corporation",
+              "market_cap": "55B"
+            },
+            {
+              "name": "BAE Systems plc",
+              "market_cap": "35B"
+            },
+            {
+              "name": "L3Harris Technologies, Inc.",
+              "market_cap": "40B"
+            },
+            {
+              "name": "Thales Group",
+              "market_cap": "25B"
+            },
+            {
+              "name": "Leonardo S.p.A.",
+              "market_cap": "8B"
+            },
+            {
+              "name": "Huntington Ingalls Industries, Inc.",
+              "market_cap": "9B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hospitality",
+      "color": "#3498DB",
+      "subsectors": [
+        {
+          "name": "Hotels",
+          "companies": [
+            {
+              "name": "Marriott International, Inc.",
+              "market_cap": "58B"
+            },
+            {
+              "name": "Hilton Worldwide Holdings, Inc.",
+              "market_cap": "41B"
+            },
+            {
+              "name": "InterContinental Hotels Group PLC",
+              "market_cap": "18B"
+            },
+            {
+              "name": "Hyatt Hotels Corporation",
+              "market_cap": "12B"
+            },
+            {
+              "name": "Wyndham Hotels & Resorts, Inc.",
+              "market_cap": "9B"
+            },
+            {
+              "name": "Choice Hotels International, Inc.",
+              "market_cap": "6B"
+            },
+            {
+              "name": "Accor S.A.",
+              "market_cap": "5B"
+            },
+            {
+              "name": "Melia Hotels International, S.A.",
+              "market_cap": "2B"
+            },
+            {
+              "name": "Huazhu Group Limited",
+              "market_cap": "15B"
+            }
+          ]
+        },
+        {
+          "name": "Restaurants",
+          "companies": [
+            {
+              "name": "McDonald's Corporation",
+              "market_cap": "200B"
+            },
+            {
+              "name": "Starbucks Corporation",
+              "market_cap": "120B"
+            },
+            {
+              "name": "Yum! Brands, Inc.",
+              "market_cap": "40B"
+            },
+            {
+              "name": "Restaurant Brands International Inc.",
+              "market_cap": "27B"
+            },
+            {
+              "name": "Chipotle Mexican Grill, Inc.",
+              "market_cap": "60B"
+            },
+            {
+              "name": "Darden Restaurants, Inc.",
+              "market_cap": "20B"
+            },
+            {
+              "name": "Domino's Pizza, Inc.",
+              "market_cap": "15B"
+            },
+            {
+              "name": "The Wendy's Company",
+              "market_cap": "5B"
+            },
+            {
+              "name": "Texas Roadhouse, Inc.",
+              "market_cap": "8B"
+            }
+          ]
+        },
+        {
+          "name": "Travel Services",
+          "companies": [
+            {
+              "name": "Booking Holdings Inc.",
+              "market_cap": "96.5B"
+            },
+            {
+              "name": "Airbnb, Inc.",
+              "market_cap": "89.5B"
+            },
+            {
+              "name": "Expedia Group, Inc.",
+              "market_cap": "20.7B"
+            },
+            {
+              "name": "Trip.com Group Limited",
+              "market_cap": "19.3B"
+            },
+            {
+              "name": "Tripadvisor, Inc.",
+              "market_cap": "4.5B"
+            },
+            {
+              "name": "Makemytrip Limited",
+              "market_cap": "3.8B"
+            },
+            {
+              "name": "Travel + Leisure Co.",
+              "market_cap": "2.8B"
+            },
+            {
+              "name": "Despegar.com, Corp.",
+              "market_cap": "1.1B"
+            },
+            {
+              "name": "Tuniu Corporation",
+              "market_cap": "0.34B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Biotechnology",
+      "color": "#8E44AD",
+      "subsectors": [
+        {
+          "name": "Research",
+          "companies": [
+            {
+              "name": "Regeneron Pharmaceuticals, Inc.",
+              "market_cap": "91B"
+            },
+            {
+              "name": "Vertex Pharmaceuticals Incorporated",
+              "market_cap": "87B"
+            },
+            {
+              "name": "Biogen Inc.",
+              "market_cap": "40B"
+            },
+            {
+              "name": "Moderna, Inc.",
+              "market_cap": "34B"
+            },
+            {
+              "name": "Illumina, Inc.",
+              "market_cap": "27B"
+            },
+            {
+              "name": "BioNTech SE",
+              "market_cap": "26B"
+            },
+            {
+              "name": "Alnylam Pharmaceuticals, Inc.",
+              "market_cap": "25B"
+            },
+            {
+              "name": "Seagen Inc.",
+              "market_cap": "23B"
+            },
+            {
+              "name": "Exelixis, Inc.",
+              "market_cap": "6B"
+            }
+          ]
+        },
+        {
+          "name": "Development",
+          "companies": [
+            {
+              "name": "Amgen Inc.",
+              "market_cap": "132B"
+            },
+            {
+              "name": "Regeneron Pharmaceuticals Inc.",
+              "market_cap": "80B"
+            },
+            {
+              "name": "Vertex Pharmaceuticals Incorporated",
+              "market_cap": "75B"
+            },
+            {
+              "name": "Moderna, Inc.",
+              "market_cap": "57B"
+            },
+            {
+              "name": "Biogen Inc.",
+              "market_cap": "42B"
+            },
+            {
+              "name": "Gilead Sciences, Inc.",
+              "market_cap": "101B"
+            },
+            {
+              "name": "BioNTech SE",
+              "market_cap": "38B"
+            },
+            {
+              "name": "Alnylam Pharmaceuticals, Inc.",
+              "market_cap": "36B"
+            },
+            {
+              "name": "Illumina, Inc.",
+              "market_cap": "29B"
+            }
+          ]
+        },
+        {
+          "name": "Clinical Testing",
+          "companies": [
+            {
+              "name": "Illumina",
+              "market_cap": "23B"
+            },
+            {
+              "name": "Thermo Fisher Scientific",
+              "market_cap": "213B"
+            },
+            {
+              "name": "QIAGEN",
+              "market_cap": "13B"
+            },
+            {
+              "name": "Bio-Rad Laboratories",
+              "market_cap": "16B"
+            },
+            {
+              "name": "Myriad Genetics",
+              "market_cap": "2B"
+            },
+            {
+              "name": "Exact Sciences",
+              "market_cap": "14B"
+            },
+            {
+              "name": "Natera",
+              "market_cap": "7B"
+            },
+            {
+              "name": "Quanterix",
+              "market_cap": "2B"
+            },
+            {
+              "name": "Personalis",
+              "market_cap": "0.4B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Telecommunications",
+      "color": "#E67E22",
+      "subsectors": [
+        {
+          "name": "Wireless Services",
+          "companies": [
+            {
+              "name": "AT&T Inc.",
+              "market_cap": "116B"
+            },
+            {
+              "name": "Verizon Communications Inc.",
+              "market_cap": "168B"
+            },
+            {
+              "name": "T-Mobile US, Inc.",
+              "market_cap": "180B"
+            },
+            {
+              "name": "Vodafone Group Plc",
+              "market_cap": "40B"
+            },
+            {
+              "name": "China Mobile Limited",
+              "market_cap": "114B"
+            },
+            {
+              "name": "KDDI Corporation",
+              "market_cap": "70B"
+            },
+            {
+              "name": "Orange S.A.",
+              "market_cap": "30B"
+            },
+            {
+              "name": "Telef\u00f3nica S.A.",
+              "market_cap": "25B"
+            },
+            {
+              "name": "Deutsche Telekom AG",
+              "market_cap": "90B"
+            }
+          ]
+        },
+        {
+          "name": "Internet Providers",
+          "companies": [
+            {
+              "name": "Comcast Corporation",
+              "market_cap": "200B"
+            },
+            {
+              "name": "Charter Communications",
+              "market_cap": "120B"
+            },
+            {
+              "name": "Verizon Communications Inc.",
+              "market_cap": "200B"
+            },
+            {
+              "name": "AT&T Inc.",
+              "market_cap": "150B"
+            },
+            {
+              "name": "T-Mobile US, Inc.",
+              "market_cap": "175B"
+            },
+            {
+              "name": "Orange S.A.",
+              "market_cap": "60B"
+            },
+            {
+              "name": "Vodafone Group plc",
+              "market_cap": "55B"
+            },
+            {
+              "name": "Nippon Telegraph and Telephone Corporation (NTT)",
+              "market_cap": "100B"
+            },
+            {
+              "name": "Deutsche Telekom AG",
+              "market_cap": "115B"
+            }
+          ]
+        },
+        {
+          "name": "Network Infrastructure",
+          "companies": [
+            {
+              "name": "Cisco Systems, Inc.",
+              "market_cap": "223B"
+            },
+            {
+              "name": "Nokia Corporation",
+              "market_cap": "25B"
+            },
+            {
+              "name": "Ericsson (Telefonaktiebolaget LM Ericsson)",
+              "market_cap": "20B"
+            },
+            {
+              "name": "Juniper Networks, Inc.",
+              "market_cap": "11B"
+            },
+            {
+              "name": "Ciena Corporation",
+              "market_cap": "8B"
+            },
+            {
+              "name": "Infinera Corporation",
+              "market_cap": "3B"
+            },
+            {
+              "name": "Arista Networks, Inc.",
+              "market_cap": "49B"
+            },
+            {
+              "name": "ADTRAN Holdings, Inc.",
+              "market_cap": "1.5B"
+            },
+            {
+              "name": "ZTE Corporation",
+              "market_cap": "12B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Consumer Goods",
+      "color": "#F1C40F",
+      "subsectors": [
+        {
+          "name": "Personal Care",
+          "companies": [
+            {
+              "name": "Procter & Gamble",
+              "market_cap": "375B"
+            },
+            {
+              "name": "Unilever Group",
+              "market_cap": "150B"
+            },
+            {
+              "name": "L'Or\u00e9al",
+              "market_cap": "235B"
+            },
+            {
+              "name": "Est\u00e9e Lauder Companies",
+              "market_cap": "95B"
+            },
+            {
+              "name": "Colgate-Palmolive",
+              "market_cap": "70B"
+            },
+            {
+              "name": "Reckitt Benckiser Group",
+              "market_cap": "60B"
+            },
+            {
+              "name": "Beiersdorf",
+              "market_cap": "30B"
+            },
+            {
+              "name": "Kimberly-Clark",
+              "market_cap": "50B"
+            },
+            {
+              "name": "Shiseido",
+              "market_cap": "35B"
+            }
+          ]
+        },
+        {
+          "name": "Home Products",
+          "companies": [
+            {
+              "name": "Procter & Gamble Co.",
+              "market_cap": "345B"
+            },
+            {
+              "name": "Unilever PLC",
+              "market_cap": "144B"
+            },
+            {
+              "name": "Reckitt Benckiser Group PLC",
+              "market_cap": "56B"
+            },
+            {
+              "name": "Colgate-Palmolive Company",
+              "market_cap": "63B"
+            },
+            {
+              "name": "Kimberly-Clark Corporation",
+              "market_cap": "47B"
+            },
+            {
+              "name": "Henkel AG & Co. KGaA",
+              "market_cap": "36B"
+            },
+            {
+              "name": "Clorox Company",
+              "market_cap": "19B"
+            },
+            {
+              "name": "Church & Dwight Co., Inc.",
+              "market_cap": "22B"
+            },
+            {
+              "name": "Newell Brands Inc.",
+              "market_cap": "7.5B"
+            }
+          ]
+        },
+        {
+          "name": "Apparel",
+          "companies": [
+            {
+              "name": "Nike Inc.",
+              "market_cap": "143.3B"
+            },
+            {
+              "name": "LVMH Mo\u00ebt Hennessy Louis Vuitton",
+              "market_cap": "470B"
+            },
+            {
+              "name": "Inditex (Zara)",
+              "market_cap": "113B"
+            },
+            {
+              "name": "Adidas AG",
+              "market_cap": "29B"
+            },
+            {
+              "name": "Kering (Gucci)",
+              "market_cap": "75B"
+            },
+            {
+              "name": "VF Corporation",
+              "market_cap": "11B"
+            },
+            {
+              "name": "Herm\u00e8s International",
+              "market_cap": "220B"
+            },
+            {
+              "name": "Fast Retailing (Uniqlo)",
+              "market_cap": "95B"
+            },
+            {
+              "name": "Ralph Lauren Corporation",
+              "market_cap": "7.5B"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "totalSectors": 18,
+    "totalSubsectors": 54,
+    "version": "1.0"
+  }
+}
